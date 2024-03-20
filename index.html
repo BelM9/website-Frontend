@@ -1,0 +1,390 @@
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechAccessories</title>
+    <link rel="stylesheet" href="css/desktop-style.css">
+    <link rel="stylesheet" href="css/mobile-style.css">
+    <script src="javascript/chariot.js"></script>
+    <link rel="icon" href="assets/logo.png">
+</head>
+<body>
+
+    <nav>
+        <div>
+            <div>
+                <p >TechAccessories</p>
+            </div>
+            <ul>
+                <li>
+                    <a class="nav-a" href="#">Accueil</a>
+                </li>
+                <li>
+                    <a class="nav-a" href="pages/brands.html">Marques</a>
+                </li>
+                <li>
+                    <a class="nav-a" href="pages/new.html">Nouveau</a>
+                </li>
+                <li>
+                    <a class="nav-a" href="pages/about.html">À propos</a>
+                </li>
+            </ul>
+            <div class="icon-svg">
+                <div><a href="pages/search.html"><img src="Assets/search.svg"></a></div>
+                <div><img src="Assets/heart.svg"></div>
+                <div><a href="#anchor-panier"><img src="Assets/shopping-cart.svg"></a></div>
+                <div><a href="javascript/local/login.html"><img src="Assets/user.svg"></a></div>
+
+            </div>
+    
+            <div class="hamburger">
+                <div></div>
+                <div></div>            
+                <div></div>
+            </div>
+        </div>
+        <div id="nav-div-marque">
+            <span id="nav-span-marque">Articles de qualité et de marques vérifiées</span>
+        </div>
+    </nav>
+
+    <article>     
+        <header class="mob-header">
+            <div  class="mob-header-div">
+                <img src="Assets/casque.png" class="header-img1">
+            </div>
+            <div class="header-text">
+                <p id="NewCollection">Nouvelle Collection</p>     
+                      
+                <div class="div-icon">
+                    <div><img src="Assets/chevrons-right.svg" class="header-Icon"></div>
+                    <div><a href="pages/brands.html"><button>Acheter maintenant</button></a></div>
+                    <div><img src="Assets/chevrons-left.svg" class="header-Icon"></div>
+                </div>
+            </div>
+
+            <div class="mob-header-div">
+                <img src="Assets/girl.png" class="header-img2"> 
+            </div>
+        </header>
+
+        <div class="boxs mob-boxs">
+            <div class="box mob-box">
+                <div class="mob-box-div">
+                    <img src="Assets/shipping-fast.svg" id="box-icon">
+                    <p>Livraison Rapide et Gratuite</p>
+                </div>
+            </div>
+
+            <div class="box2 mob-box2">
+                <div  class="box-div mob-box-div">
+                    <img src="Assets/badge-check.svg" id="box-icon">
+                    <p>Produits 100% Vérifiés</p>
+
+                    <img src="Assets/refund-alt.svg" id="box-icon">
+                    <p>Remboursement Garanti</p>
+                </div>
+            </div>
+
+            <div class="box mob-box">
+                <div  class="mob-box-div">
+                    <img src="Assets/debit-credit-card-icon.svg" id="box-icon">
+                    <p>Système de Paiement Super Sécurisé</p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <section class="section2">
+        <p >Flash Vente 
+            <span class="section2-span">14</span>   : 
+            <span class="section2-span">24</span> : 
+            <span class="section2-span">04</span>
+        </p>
+    </section>
+
+    <section class="section3">
+
+        <div class="section3-div">
+            <div>
+                <img src="Assets/Azus Zenbook 14 2020 XXIV Series.png" class="section3-img">
+            </div>
+            <div class="blocs">
+                <div class="bloc1">
+                    <div><span class="section3-span">Azus</span></div>
+                    <br>
+                    <div><span class="section3-span-price">2500 D</span></div>
+                </div>
+                <div class="bloc2">
+                    <div><img src="Assets/red-heart.svg" class="section3-icon"></div>
+                    <div><img src="Assets/black-star.svg" class="section3-icon"></div>
+                    <div><span class="section3-icon">4.5</span></div>
+                </div>
+            </div>
+            <div class="chariot"><button onclick="addItem(2500)">Ajouter au chariot</button></div>
+        </div>
+
+        <div class="section3-div">
+            <div class="section3-div-img">
+                <div class="section3-div-img"><img src="Assets/Wireless_black_headphone.png" class="section3-img"></div>
+            </div>
+            <div class="blocs">
+                <div class="bloc1">
+                    <div><span class="section3-span">Casque</span></div>
+                    <br>
+                    <div><span class="section3-span-price">240 D</span></div>
+                </div>
+                <div class="bloc2">
+                    <div><img src="Assets/white-heart.svg" class="section3-icon"></div>
+                    <div><img src="Assets/black-star.svg" class="section3-icon"></div>
+                    <div><span class="section3-icon">4.5</span></div>
+                </div>
+            </div>
+            <div class="chariot"><button onclick="addItem(240)"">Ajouter au chariot</button></div>
+        </div>
+
+        <div class="section3-div">
+            <div class="section3-div-img">
+                <div class="section3-div-img"><img src="Assets/Gaming Mouse with Led Lights.png" class="section3-img"></div>
+            </div>
+            <div class="blocs">
+                <div class="bloc1">
+                    <div><span class="section3-span">Souris</span></div>
+                    <br>
+                    <div><span class="section3-span-price">45 D</span></div>
+                </div>
+                <div class="bloc2">
+                    <div><img src="Assets/white-heart.svg" class="section3-icon"></div>
+                    <div><img src="Assets/black-star.svg" class="section3-icon"></div>
+                    <div><span class="section3-icon">4.5</span></div>
+                </div>
+            </div>
+            <div class="chariot"><button onclick="addItem(45)">Ajouter au chariot</button></div>
+        </div>
+
+        <div class="section3-div">
+            <div class="section3-div-img">
+                <div class="section3-div-img"><img src="Assets/Iphone 13 Pro Max.png" class="section3-img"></div>
+            </div>
+            <div class="blocs">
+                <div class="bloc1">
+                    <div><span class="section3-span">Iphone</span></div>
+                    <br>
+                    <div><span class="section3-span-price">2300 D</span></div>
+                </div>
+                <div class="bloc2">
+                    <div><img src="Assets/white-heart.svg" class="section3-icon"></div>
+                    <div><img src="Assets/black-star.svg" class="section3-icon"></div>
+                    <div><span class="section3-icon">4.5</span></div>
+                </div>
+            </div>
+            <div class="chariot"><button onclick="addItem(2300)">Ajouter au chariot</button></div>
+        </div>
+
+        <div class="section3-div">
+            <div class="section3-div-img">
+                <div class="section3-div-img"><img src="Assets/Red_headphone-70d.png" class="section3-img"></div>
+            </div>
+            <div class="blocs">
+                <div class="bloc1">
+                    <div><span class="section3-span">Casque</span></div>
+                    <br>
+                    <div><span class="section3-span-price">180 D</span></div>
+                </div>
+                <div class="bloc2">
+                    <div><img src="Assets/white-heart.svg" class="section3-icon"></div>
+                    <div><img src="Assets/black-star.svg" class="section3-icon"></div>
+                    <div><span class="section3-icon">4.5</span></div>
+                </div>
+            </div>
+            <div class="chariot"><button onclick="addItem(180)">Ajouter au chariot</button></div>
+        </div>
+        <div id="anchor-panier"></div>     
+    </section>
+
+    <div id="panier">
+        <p>Votre Panier</p>
+        <p id="cart-items"></p>
+        <p id="total">0 D</p>
+    </div>
+    
+    <article>
+        <section class="section04">
+            <div id="section04-div1">Catégorie Populaire</div>
+            <div><a href="pages/brands.html">Afficher tout ></a></div>
+        </section>
+
+        <section class="section4">
+
+            <div class="section4-div">
+                <div class="section4-div-img">
+                    <img src="Assets/laptop.svg">
+                </div>
+                <span class="section4-div-span">Ordinateur</span>
+            </div>
+    
+            <div class="section4-div">
+                <div class="section4-div-img">
+                    <img src="Assets/mobile.svg">
+                </div>
+                <span class="section4-div-span">Téléphones</span>
+            </div>
+
+            <div class="section4-div">
+                <div class="section4-div-img">
+                    <img src="Assets/headphone.svg">
+                </div>
+                <span class="section4-div-span">Casque</span>
+            </div>
+
+            <div class="section4-div">
+                <div class="section4-div-img">
+                    <img src="Assets/camera.svg">
+                </div>
+                <span class="section4-div-span">Camera</span>
+            </div>
+
+            <div class="section4-div">
+                <div class="section4-div-img">
+                    <img src="Assets/speaker.svg">
+                </div>
+                <span class="section4-div-span">H-parleur</span>
+            </div>
+
+            <div class="section4-div">
+                <div class="section4-div-img">
+                    <img src="Assets/tv.svg">
+                </div>
+                <span class="section4-div-span">Télévision</span>
+            </div>
+
+            <div class="section4-div">
+                <div class="section4-div-img">
+                    <img src="Assets/printer.svg">
+                </div>
+                <span class="section4-div-span">Imprimante</span>
+            </div>
+
+            <div class="section4-div">
+                <div class="section4-div-img">
+                    <img src="Assets/watches.svg">
+                </div>
+                <span class="section4-div-span">Montres</span>
+            </div>
+
+            <div class="section4-div">
+                <div class="section4-div-img">
+                    <img src="Assets/more.svg">
+                </div>
+                <span class="section4-div-span">Plus</span>
+            </div>
+
+        </section>
+
+        <hr>
+
+        <div class="boxs4">
+            <div class="box4-1">
+                <div class="box4-1-div">
+                    <p>NOUVELLE</p>
+                    <p></p>
+                    <p>ARRIVEÉ</p>
+                </div>
+                <img src="Assets/white-headphone.png" id="box4-img">
+            </div>
+
+            <div class="box4-2-3">
+                <div class="box4-2-3-div1">
+                    <p class="box-4-2-3-div1-p1">TV Store</p>
+                    <p>MÉGA VENTE<BR><span class="box4-2-p">SMAT TV</span></p>
+                    <p class="p-occasion">Ne rattez pas cette occasion</p>
+                </div>
+                <div>
+                    <div><img src="Assets/smart-tv.png" id="box4-2-img"></div>
+                    <div class="tv-div-global">
+                        <div class="tv-div"><p class="box-4-2-3-tv-div-p">UHD 3D</p></div>
+                        <div><img id="VLine" src="Assets/vertical-line.svg" "></div>
+                        <div class="tv-div"><p class="box-4-2-3-tv-div-p">CURVED SMART</p></div>
+                        <div><img id="VLine" src="Assets/vertical-line.svg"></div>
+                        <div class="tv-div"><p class="box-4-2-3-tv-div-p"> 55" 4K</p></div>
+                    </div>
+                    <div class="div-icon-cmd">
+                        <div><img src="Assets/chevrons-right.svg" class="Icon"></div>
+                        <div><a href="pages/brands.html"><button>Commander</button></a></div>
+                        <div><img src="Assets/chevrons-left.svg" class="Icon"></div>
+                    </div>
+                </div>
+                
+                
+
+            </div>
+
+            <div class="box4-2-3">
+                <div>
+                    <p class="box4-3-1-p1">COLLECTION<BR>EXCLUSIVE<BR><br><span class="box4-2-3-p">NOUVELLE ARRIVÉE<br> OFFRE LIMTÉE</span></p>
+                    <div class="div-icon3-1-3">
+                        <div><img src="Assets/chevrons-right.svg" class="header-Icon3-1-3"></div>
+                        <div><a href="pages/brands.html"><button>Acheter</button></a></div>
+                        <div><img src="Assets/chevrons-left.svg" class="header-Icon3-1-3"></div>
+                    </div>
+                </div>        
+                <div class="box4-3-2-div-camera"> 
+                    <img src="Assets/camera.png" class="box4-3-2-img-camera">
+                </div>
+                <div class="box4-3-3-div-sky">
+                    <div><img src="Assets/nuage2.png" class="box4-3-3-img-sky1"></div>
+                    <div><img src="Assets/nuage1.png" class="box4-3-3-img-sky2"></div>
+            </div>
+            </div>
+
+        </div>
+    </article>
+
+    <footer>
+        <div class="footer">
+            
+            <div class="parts">
+
+                <div class="part">
+                    <h2>H.travail</h2>
+                    <p>Lundi au jeudi<br>8:00 - 16:00<br><br>Samedi<br>8:00 - 14:00</p>
+                </div>
+
+                <div class="part">
+                    <h2>Pages</h2>
+                    <div>
+                        <div><a href="index.html">Accueil</a></div>
+                        <div><a href="pages/brands.html">Marques</a></div>
+                        <div><a href="pages/new.html">Nouveau</a></div>
+                        <div><a href="pages/about.html">À propos</a></div>
+                    </div>
+
+                </div>
+
+                <div class="part">
+                    <h2>Médias</h2>
+                    <div><a href="pages/privacy.html">Politique de confidentialité</a></div>
+                    <div><a href="pages/conditions.html">Conditions et des services</a></div>           
+                </div>
+            
+                <div class="part">
+                    <h2>Contact</h2>
+                    <p>101 Rue des Martyrs, 8000 Nabeul-Tunisie</p>
+                    <p>+216 90 255 010</p>
+                
+                    <div class="svg-div">
+                        <div class="svg-div-img"><img src="assets/facebook.svg" class="svg-img"></div>
+                        <div class="svg-div-img"><img src="assets/instagram.svg" class="svg-img"></div>
+                        <div class="svg-div-img"><img src="assets/linkedin.svg" class="svg-img-in"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+            <div class="rights-div">
+                <p>© 2024 TechAccessories</p>
+            </div>
+    </footer>
+
+</body>
+</html>
